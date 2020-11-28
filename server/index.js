@@ -15,6 +15,7 @@ const db = mongoose.connect(DB_URL, {
         ).
         then(res => res)
         .catch(err => console.log(err));
+        
 const app = express();
 
 app.use(express.json());
